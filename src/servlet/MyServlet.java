@@ -17,6 +17,8 @@ public class MyServlet extends HttpServlet {
         String username = request.getParameter("username");
         // This is use to redirect to other page
         out.println(username);
+        out.println("Data Inserted Successfully 2");
+        out.println("Data Inserted Successfully 3");
 
         //response.sendRedirect("servletdisplay");
 
